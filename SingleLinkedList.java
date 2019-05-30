@@ -16,7 +16,7 @@ public class SingleLinkedList<T> implements LinkedListInterface<T> {
         size++;
     }
 
-    public void AddtBack(T item) {
+    public void AddBack(T item) {
         ListNode oldTail = GetTail();
         ListNode tail = new ListNode<T>(item);
         oldTail.SetNext(tail);
